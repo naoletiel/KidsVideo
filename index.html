@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        header img {
+            max-width: 100px;
+            height: auto;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+            border-radius: 8px;
+        }
+        .container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+
+        h2 {
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            iframe {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.png" alt="Logo">
+        <h1>Adama Science and Technology University</h1>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>Video Description</h2>
+            <p>
+                Come along on a thrilling journey into the realm of numbers with our enjoyable tutorial tailored specifically for children! In this captivating video, we'll delve into an adventure where numbers spring to life, turning learning into an exhilarating experience.</p>
+            <p>Resources used in the video:
+                <br>
+                <a href="https://www.freepik.com/" target="_blank">Resource 1</a>,
+                <br>
+                <a href="#">Resource 2</a>, etc.
+            </p>
+            <video controls width="560" height="315">
+                <source src="Kids Video.mp4" type="video/mp4">
+                
+              </video>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Screenshots</h2>
+            <!-- Add your screenshots here -->
+            <img src="Screenshot (25).png" alt="Description of your image">
+            <img src="Screenshot (26).png" alt="Description of your image">
+            <img src="Screenshot (27).png" alt="Description of your image">
+            <img src="Screenshot (28).png" alt="Description of your image">
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Group Members</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>ID</th>
+                </tr>
+                <tr>
+                    <td>Naol Zewdie </td>
+                    <td>UGR/19718/12</td>
+                </tr>
+                <tr>
+                    <td>Mikael Kebebew</td>
+                    <td>UGR/17396/11</td>
+                </tr>
+                <tr>
+                    <td>Natan eyasu</td>
+                    <td>UGR/19967/12</td>
+                </tr>
+                <tr>
+                    <td>Fraol Fikru </td>
+                    <td>UGR/19946/12</td>
+                </tr>
+                <tr>
+                    <td>Abreham Sisay</td>
+                    <td>UGR/19962/12</td>
+                </tr>
+                <tr>
+                    <td>Abera Dinkecha</td>
+                    <td>UGR/19601/12</td>
+                </tr>
+                
+                <!-- Add more rows for other group members -->
+            </table>
+        </div>
+    </section>
+
+</body>
+
+</html>
